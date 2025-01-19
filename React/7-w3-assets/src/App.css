@@ -1,0 +1,41 @@
+img {
+  display: block;
+  margin: auto; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.vid {
+  display: flex;                /* Use Flexbox */
+  justify-content: center;      /* Center horizontally */
+  align-items: top;             /* Center vertically */
+  height: 25vh;                /* Full height of the viewport */
+}
+
+h1 {
+  margin-bottom: 20px;          /* Optional: Adds space between the heading and video */
+  text-align: center;
+}
+
+.bgroup {
+  display:block;
+  margin: 10px auto;
+  max-width: 300px;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.left-btn {
+  left: 10px; /* Distance from the left edge */
+  top: 50%;   /* Center vertically */
+  margin: auto 22px;
+}
+
+.right-btn {
+  right: 10px; /* Distance from the right edge */
+  top: 50%;    /* Center vertically */
+  margin: auto 22px;
+
+}

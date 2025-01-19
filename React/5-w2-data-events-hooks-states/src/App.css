@@ -1,0 +1,6 @@
+.boxes h2{
+  margin: 5px;
+  max-width: 300px;
+  border: 1px solid black;
+  padding: 5px;
+}
