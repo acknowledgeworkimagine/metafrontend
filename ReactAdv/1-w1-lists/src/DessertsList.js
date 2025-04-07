@@ -1,0 +1,23 @@
+const DessertsList = (props) => {
+    // Implement the component here.
+    
+    const lowCaloriesDesserts = props.data
+      .filter((dessert)=> {
+        return dessert.calories < 500;
+      })
+
+      .sort((a,b)=>{  //Ordenar de menor a mayor.
+        return a.calories - b.calories;
+      })
+      .map((dessert)=>{
+        return (
+          <li>
+            {dessert.name} - {dessert.calories} cal
+          </li>
+        );
+      });
+      return <ul>{lowCaloriesDesserts}</ul>;
+
+  }
+  
+  export default DessertsList;

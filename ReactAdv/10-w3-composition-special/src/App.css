@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.Overlay {
+  display: flex; /* Allows centering */
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  position: fixed;
+  top: 0;  left: 0;
+  width: 100vw;
+  height:100vh;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  z-index: 1000; /* Ensure it's on top */
+}
+
+.Alert {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  min-width: 300px;
+  max-width: 400px;
+}
+
+
