@@ -1,8 +1,14 @@
  import React from 'react';
- 
+
  const MealsContext = React.createContext();
 
- const todaysMeals = ["Baked Beans", "Baked Sweet Potatoes", "Baked Potatoes"];
+ const todaysMeals = [
+    "Baked Beans",
+    "Baked Sweet Potatoes",
+    "Baked Potatoes",
+    "Enchiladas",
+    "Taquitos de carne asada"
+    ];
 
  const MealsProvider = ({children}) => {
 
